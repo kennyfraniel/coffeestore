@@ -1,0 +1,179 @@
+* {
+    margin: 2;
+    padding: 2;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    
+}  
+
+/*ESTILOS CSS*/
+header {
+    background-image: url("https://i.pinimg.com/originals/98/33/e2/9833e22c4361d1185913336f82046a43.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h1 {
+    text-align: right;
+    font-size: 85px;
+    padding-right: 10%;
+}
+section h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10%;
+    
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ #h2Registro {
+     text-align: right;
+     padding-right: 10%;
+ }
+span {
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+span:hover {
+    border-left: solid 10px grey;
+}
+
+.border {
+    border: solid black;
+}
+img {
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+}
+form {
+    width: 50%;
+    text-align: center;
+}
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*GRILLAS*/
+#grillaAreas {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "menu cuerpo cuerpo"
+    "menu productos productos"
+    "pie pie pie"
+    ;
+    grid-template-columns: 15% auto 20%;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+}   
+header {
+    grid-area: cabeza;
+}
+
+#productos {
+    grid-area: productos;
+}
+
+#galeria {
+    grid-area: cuerpo;
+}
+nav {
+    grid-area: menu;
+}
+footer {
+    grid-area: pie;
+}
+
+
+/* FLEX */
+
+.menuFlex {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tutorialesFlex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.formFlex {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.cafeteriasFlex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.cafeFlex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*MEDIA QUERIES*/
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+    #grillaAreas {
+        grid-template-areas: 
+        "cabeza cabeza"
+        "menu menu"
+        "cuerpo cuerpo"
+        "productos productos"
+        "pie pie"
+        ;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+    }
+
+    .menuFlex {
+        flex-flow: row wrap;
+    }
+    
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    .cafeteriasFlex {
+        flex-flow: row wrap;
+    }
+    
+    .cafeFlex {
+        flex-flow: row wrap;
+    }
+    .tutorialesFlex {
+        flex-flow: row wrap;
+    }
+}
+
+/*smartphone*/
+@media (max-width: 480px) {
+    #grillaAreas {
+        grid-template-areas:
+        "cabeza"
+        "menu"
+        "cuerpo"
+        "productos" 
+        "pie"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+    }
+    .tutorialesFlex {
+        flex-flow: column nowrap;
+    }
+    .cafeteriasFlex {
+        flex-flow: column nowrap;
+    }
+}
+
+    
