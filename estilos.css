@@ -72,6 +72,13 @@ p {
 =======
 >>>>>>> animaciones
 
+.transicion {
+    transition: width 2s;
+}
+
+.transicion:hover {
+    width: 50vh;
+}
 
 <<<<<<< HEAD
 .transicionFaq {
