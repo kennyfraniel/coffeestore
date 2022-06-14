@@ -63,6 +63,13 @@ p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.transicion {
+    transition: width 2s;
+}
+
+.transicion:hover {
+    width: 50vh;
+}
 
 
 /*GRILLAS*/
