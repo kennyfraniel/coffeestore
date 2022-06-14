@@ -32,6 +32,7 @@ section h1 {
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
 }
  #h2Registro {
      text-align: right;
@@ -47,7 +48,7 @@ span:hover {
     border-left: solid 10px grey;
 }
 
-.border {
+.border1 {
     border: solid black;
 }
 img {
