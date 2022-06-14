@@ -63,23 +63,26 @@ p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 .transicion {
     transition: width 1s;
 }
+=======
+>>>>>>> animaciones
 
-.transicion:hover {
-    width: 50vh;
-    border: ridge grey;
-}
 
+<<<<<<< HEAD
 .transicionFaq {
     transition: width 1s;
 }
 .transicionFaq {
     width: 30vh;
 }
+>>>>>>> animaciones
+=======
+
 >>>>>>> animaciones
 /*GRILLAS*/
 #grillaAreas {
