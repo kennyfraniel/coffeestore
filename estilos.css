@@ -177,6 +177,9 @@ footer {
     .menuFlex {
         flex-flow: row wrap;
     }
+    nav {
+        text-align: center;
+    }
 }
 
     
