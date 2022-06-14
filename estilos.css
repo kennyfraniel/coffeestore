@@ -62,6 +62,21 @@ form {
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.transicion {
+    transition: width 1s;
+}
+
+.transicion:hover {
+    width: 50vh;
+    border: ridge grey;
+}
+
+.transicionFaq {
+    transition: width 1s;
+}
+.transicionFaq {
+    width: 30vh;
+}
 /*GRILLAS*/
 #grillaAreas {
     display: grid;
