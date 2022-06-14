@@ -62,15 +62,6 @@ form {
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-.transicion {
-    transition: width 1s;
-}
-=======
->>>>>>> animaciones
 
 .transicion {
     transition: width 2s;
@@ -80,17 +71,7 @@ p {
     width: 50vh;
 }
 
-<<<<<<< HEAD
-.transicionFaq {
-    transition: width 1s;
-}
-.transicionFaq {
-    width: 30vh;
-}
->>>>>>> animaciones
-=======
 
->>>>>>> animaciones
 /*GRILLAS*/
 #grillaAreas {
     display: grid;
