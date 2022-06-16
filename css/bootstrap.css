@@ -92,7 +92,7 @@ hr {
   opacity: 0.25;
 }
 
-hr:not([size]) {
+hr:not([size]) {g
   height: 1px;
 }
 

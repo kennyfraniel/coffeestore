@@ -71,8 +71,21 @@ p {
 .transicion:hover {
     width: 50vh;
 }
+/*Animaciones*/
+.textoAnimado {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 
-
+}
+@keyframes texto {
+    from {
+    transform: translateX(1300px);
+    }
+    to {
+        transform: translate(0);
+    }
+}
 /*GRILLAS*/
 #grillaAreas {
     display: grid;
