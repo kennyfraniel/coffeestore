@@ -55,7 +55,7 @@ span:hover {
 img {
     width: 500px;
     height: 500px;
-    padding: 15px;
+    padding: 10px;
 }
 form {
     width: 50%;
@@ -64,7 +64,7 @@ form {
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+/*Transiciones*/
 .transicion {
     transition: width 2s;
 }
